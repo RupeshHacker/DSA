@@ -3,7 +3,7 @@ void push(char[], char);
 char pop(char[]);
 int top =-1;
 
-main(){
+int main(){
     char expr[50],ele,st[50];
     int i = 0,c = 0;
     
@@ -23,6 +23,7 @@ main(){
             }
         }
     }
+    return 0;
 }
 
 void push(char st[], char ele){
